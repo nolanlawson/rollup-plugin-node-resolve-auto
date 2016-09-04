@@ -25,5 +25,13 @@
   "license": "MIT",
   "devDependencies": {
     "standard": "^8.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nolanlawson/rollup-plugin-node-resolve-auto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nolanlawson/rollup-plugin-node-resolve-auto/issues"
+  },
+  "homepage": "https://github.com/nolanlawson/rollup-plugin-node-resolve-auto#readme"
 }
