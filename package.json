@@ -3,7 +3,9 @@
   "description": "Bundle third-party dependencies in node_modules",
   "version": "1.0.0",
   "main": "lib/index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "standard"
+  },
   "files": [
     "lib"
   ],

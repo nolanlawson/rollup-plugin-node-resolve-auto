@@ -4,7 +4,7 @@ Fork of [rollup-plugin-node-resolve](https://github.com/rollup/rollup-plugin-nod
 does the thing I usually want Rollup to do, which is:
 
 1. Bundle first-party ES6 modules
-2. Treat third-party dependencies as external (CommonJS)
+2. Treat third-party dependencies as external CommonJS
 3. ..._unless_ those third-party deps declare a `jsnext:main`/`module` in their `package.json`.
 
 ## Installation
@@ -23,7 +23,6 @@ rollup({
   entry: 'main.js',
   plugins: [
     nodeResolve({
-      // This is the only optinon supported by this plugin.
       // If you set this to true, then modules will be built in "browser" mode
       // based on the presence of the "browser" field in package.json
       browser: true,  // Default: false
