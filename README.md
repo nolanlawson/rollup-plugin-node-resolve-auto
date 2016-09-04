@@ -5,7 +5,9 @@ does the thing I usually want Rollup to do, which is:
 
 1. Bundle first-party ES6 modules
 2. Treat third-party dependencies as external CommonJS
-3. ..._unless_ those third-party deps declare a `jsnext:main`/`module` in their `package.json`.
+3. ..._unless_ those third-party deps declare a `"jsnext:main"` or `"module"` in their `package.json`.
+
+The only options that this plugin shares with `rollup-plugin-node-resolve` are `"browser"` and `"extension"`.
 
 ## Installation
 
